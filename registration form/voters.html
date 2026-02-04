@@ -1,0 +1,121 @@
+<html>
+<head>
+    <title>Voters  Registration</title>
+<style>
+h1{
+color:green;
+text-align:center;
+}
+h2{
+color:blue;
+text-align:center;
+}
+p{
+color:black;
+}
+table{
+background-color: pink;
+}
+td{
+color:black;
+font-size:24px ;
+}
+input
+{
+color:black;
+font-size:24px;
+text-align : center;
+}
+select
+{ 
+color:black;
+font-size:19px;
+text-align : center;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<h1>DevOps Lab</h1>
+<h2>Voters Registration Form</h2>
+
+<form>
+    <table border="5" align="center" cellspacing="10" cellpadding="10">
+        <tr>
+            <td>Name</td>
+            <td><input type="text"></td>
+        </tr>
+	<tr style="color:red">
+    <td>date of birth (dob):</td> 
+	     <td> <input type="date"></td>
+	</tr>
+	<tr style="color:blue">
+            <td>Contact Number</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr >
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="g"> Male
+                <input type="radio" name="g"> Female
+            </td>
+        </tr>
+
+        <tr>
+            <td>Address</td>
+            <td><textarea rows="5" cols="15"></textarea></td>
+        </tr>
+
+        <tr>
+	<td>Eligibility Declaration</td>
+            <td>
+                <input type="checkbox"> Indian Citizen
+                <input type="checkbox"> NRI
+               
+            </td>
+        </tr>
+
+       
+
+        <tr>
+            <td>Qualification</td>
+            <td>
+                <select>
+                    <option>--SELECT--</option>
+                    <option>Ph.D</option>
+                    <option>M.E/M.Tech</option>
+                    <option>B.E/B.Tech</option>
+                    <option>Diploma</option>
+                    <option>Inter</option>
+                    <option>SSC</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Age</td>
+            <td>
+                <select>
+                    <option>--SELECT--</option>
+                    <option>Below 18</option>
+                    <option>Above 18</option>
+                    <option>18</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Register">
+                <input type="reset" value="Clear">
+            </td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
